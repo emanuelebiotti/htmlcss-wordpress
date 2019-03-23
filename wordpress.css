@@ -1,6 +1,7 @@
 * {
 
   box-sizing: border-box;
+
 }
 
 body
@@ -95,12 +96,12 @@ ul.menu {
 ul.menu li {
 
   display:inline-block;
-  color:white;
   font-family: sans-serif;
   color:#999;
   border-right: 1px solid black;
   height: 60px;
   padding:20px;
+  float:left;
 
 }
 
@@ -108,6 +109,12 @@ ul.menu:first-child {
 
   border-left:1px solid black;
   padding-left: 0;
+}
+
+
+ul.menu li:hover {
+
+  background-color: black;
 }
 
 
